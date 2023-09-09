@@ -15,3 +15,5 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 sudo apt-get update -y 
 
 sudo apt-get install jenkins -y
+
+sudo systemctl status jenkins.service
